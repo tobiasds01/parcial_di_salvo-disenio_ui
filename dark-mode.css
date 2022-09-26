@@ -1,0 +1,27 @@
+.dark-mode-black {
+    background-color: #121212;
+}
+
+.dark-mode-gray {
+    background-color: #1e1e1e;
+}
+
+a.dark-mode-text,
+h2.dark-mode-text,
+h3.dark-mode-text,
+h4.dark-mode-text,
+#titulo.dark-mode-text  {
+    color: #f1e61a;
+}
+
+p.dark-mode-text,
+li.dark-mode-text,
+h5.dark-mode-text,
+h6.dark-mode-text,
+label.dark-mode-text {
+    color: #f8f8f8;
+}
+
+hr.dark-mode-text {
+    border-color: #f8f8f8;
+}

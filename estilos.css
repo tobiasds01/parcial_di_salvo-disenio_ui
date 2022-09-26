@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Raleway:wght@400;700&display=swap');
+
+* {margin: 0; padding: 0;}
+
+a,
+p,
+li,
+h5,
+h6 {
+    font-family: 'Raleway', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Bebas Neue','Raleway', sans-serif;
+}
+
+header {
+    background-color: #f1e61a;
+}
+
+.logo {
+    text-align: center;
+}
+
+.logo img {
+    max-width: 30vh;
+    display: inline-block;
+    margin: 0px auto;
+}
+
+#titulo {
+    display: inline;
+    color: #121212;
+}
+
+nav {
+    padding: 2vh;
+}
+
+nav a {
+    color: #121212;
+    text-decoration: none;
+}
+
+.boton-noche-dia {
+    display: flex;
+    justify-content: end;
+    margin-right: 2vw;
+}
+
+main {
+    padding: 10vh 0px;
+    background-color: #f8f8f8;
+}
+
+.promocion {
+    max-width: 25vw;
+    display: flex;
+    margin: 5vh 0px;
+    filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));
+}
+
+.principal {
+    justify-content: space-around;
+}
+
+footer {
+    background-color: #f1e61a;
+    padding: 2vw;
+}
+
+footer h3 {
+    text-align: center;
+    margin-bottom: 2vw;
+    color: #121212;
+    
+}
+
+#localizacion {
+    max-width: 60vw;
+    display: block;
+    margin: 0px auto;
+}
+
+#ubicacion {
+    height: 15px;
+    vertical-align: middle;
+}
+
+.info p {
+    margin-top: 2vh;
+}
+
+.redes-sociales {
+    text-align: center;
+}
+
+footer h4 {
+    margin: 2vw 0px;
+    color: #121212;
+}
+
+#pedidosYa {
+    max-width: 8vw;
+}
+
+.redes {
+    min-width: 30px;
+    max-width: 5vw;
+    margin: 0px 2vw;
+}
+
+footer h6 {
+    display: inline;
+}
+
+#derechos {
+    text-align: center;
+    margin-top: 5vh;
+}
+
+.titulo {
+    text-align: center;
+    margin-bottom: 8vh;
+}
+
+.menu a {
+    display: block;
+    margin: 10vh auto;
+    text-align: center;
+    color: #121212;
+}
+
+.plato {
+    float: left;
+}
+
+.precio {
+    float: right;
+}
+
+.menu hr,
+p {
+    clear: both;
+}
+
+.menu {
+    margin-top: 10vh;
+}
+
+.formulario-contacto {
+    margin-top: 3vh;
+}
+
+/* Toggle Switch Button */
+
+.custom-control-input:focus ~ 
+.custom-control-label::before {
+    border-color: #1e1e1e !important;
+    box-shadow:
+        0 0 0 0rem rgba(0, 0, 0, 0) !important;
+}
+
+.custom-control-input:checked ~ 
+.custom-control-label::before {
+    border-color: #1e1e1e !important;
+    background-color: #1e1e1e !important;
+}
+
+.custom-control-input:active ~ 
+.custom-control-label::before {
+    background-color: #1e1e1e !important;
+    border-color: #1e1e1e !important;
+}
+
+.custom-control-input:focus:not(:checked) ~ .custom-control-label::before {
+    border-color: #1e1e1e !important;
+}

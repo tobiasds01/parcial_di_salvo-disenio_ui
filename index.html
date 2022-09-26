@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veganosaurio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="dark-mode.css">
+    <link rel="icon" href="imagenes/favicon.ico">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="imagenes/logo.png" alt="Logo Veganosaurio">
+            <h1 id="titulo">Veganosaurio</h1>
+        </div>
+        <nav class="container-flex">
+            <div class="row">
+                <div class="col-1"></div>
+                <div class="col-2"><a href="index.html">Inicio</a></div>
+                <div class="col-2"><a href="menu.html">Menú</a></div>
+                <div class="col-2"><a href="detalle.html">Detalle</a></div>
+                <div class="col-2"><a href="contacto.html">Contacto</a></div>
+                <div class="col-1"></div>
+                <div class="col-2">
+                    <div class="custom-control custom-switch boton-noche-dia">
+                        <input type="checkbox" class="custom-control-input" id="customSwitch1">
+                        <label class="custom-control-label" for="customSwitch1"></label>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="container-flex">
+        <div class="row principal">
+            <img src="imagenes/imagen_promo_6.jpg" class="promocion" alt="Imagen promocional">
+            <img src="imagenes/imagen_promo_5.jpg" class="promocion" alt="Imagen promocional">
+            <img src="imagenes/imagen_promo_4.jpg" class="promocion" alt="Imagen promocional">
+        </div>
+        <div class="row principal">
+            <img src="imagenes/imagen_promo_3.jpg" class="promocion" alt="Imagen promocional">
+            <img src="imagenes/imagen_promo_2.jpg" class="promocion" alt="Imagen promocional">
+            <img src="imagenes/imagen_promo_1.jpg" class="promocion" alt="Imagen promocional">
+        </div>
+    </main>
+    <footer>
+        <div class="container-flex">
+            <h3>CONTACTO</h3>
+            <div class="row">
+                <div class="col-8"><img id="localizacion" src="imagenes/localizacion.png" alt=""></div>
+                <div class="col-4 info">
+                    <img src="imagenes/iconos/ubicacion.png" id="ubicacion" alt="Icono ubicación"><h6> Soriano 1607, Ituzaingó</h6>
+                    <p>HORARIOS:<br>
+                    De Miércoles a Domingo de 12:00 a 15:00 y de 20:00 a 23:00</p>
+                    <h4>Hacé tu pedido:</h4>
+                    <a href="https://www.pedidosya.com.ar/restaurantes/ituzaingo/el-veganosaurio-burger-y-sandwich-2d83c091-3ebf-4489-b679-b7b8b467f7d7-menu?utm_source=google&utm_medium=organic&utm_campaign=google_reserve_place_order_action" target="_blank"><img id="pedidosYa" src="imagenes/iconos/pedidosya.png" alt="Logo PedidosYA"></a>
+                </div>
+            </div>
+        </div>
+        <div class="container-flex redes-sociales">
+                <h4>Redes sociales:</h4>
+                <a href="https://www.instagram.com/elveganosauriosoy/?hl=es" target="_blank"><img src="imagenes/iconos/instagram.png" class="redes" alt="Logo Instagram" id="instagram"></a>
+                <a href="https://www.facebook.com/profile.php?id=100078097415388" target="_blank"><img src="imagenes/iconos/facebook.png" class="redes" alt="Logo Facebook" id="facebook"></a>
+                <img src="imagenes/iconos/telefono.png" class="redes" alt="Icono Llamado Telefónico" id="telefono"><h6>011 2391-5414</h6>
+                <img src="imagenes/iconos/whatsapp.png" class="redes" alt="Logo WhatsApp" id="whatsapp"><h6>011 3903-0770</h6>
+                <img src="imagenes/iconos/correo.png" class="redes" alt="Icono Correo Electrónico" id="correo"><h6>info.veganosaurio@gmail.com</h6>
+                </div>
+            </div>
+            <p id="derechos">© El Veganosaurio 2022 | Diseño: Tobías Di Salvo</p>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.6/dist/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
