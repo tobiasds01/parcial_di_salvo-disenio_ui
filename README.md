@@ -30,7 +30,7 @@ Por último, debajo tenemos el footer, que cuenta con un mapa al local, un link 
 
 En la sección "Menú" contamos con un link directo a las secciones que más nos interesen de la carta. De esta manera logramos que el usuario se haga una idea general de los platos ofrecidos, y una vez decidido puede dirigirse directamente a esa sección de la carta. Pero, si igual no está conforme con su decisión, puede seguir mirando el resto de opciones, ya que se lo dirige a la carta completa y no solamente a la sección elegida.
 
-![Imagen del menú](imagenes/imagenes_readme/imagen-menu.jpg)
+![Imagen del menú](imagenes/imagenes_readme/imagen-menu.png)
 
 ## Carta
 
